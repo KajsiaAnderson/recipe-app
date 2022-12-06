@@ -1,0 +1,33 @@
+header {
+    height: 60px;
+    width: auto;
+    background-color: rgb(173, 79, 69);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_btn {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color: white;
+    margin: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav_btn:hover {
+    background-color: rgb(194, 93, 82);
+    transition: all 0.05s ease-in-out;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);;
+}
