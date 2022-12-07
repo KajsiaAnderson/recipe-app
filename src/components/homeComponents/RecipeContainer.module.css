@@ -1,0 +1,45 @@
+.recipe_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.recipe_container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.search_bar input {
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20px;
+}
+
+input {
+    height: 35px;
+    margin: 0;
+    padding: 0 8px;
+    border: none;
+    background-color: transparent
+}
+
+input:focus {
+    outline: none;
+}
+
+.search_bar {
+    margin-top: 20px;
+    width: 25%;
+    border-radius: 50px;
+    border: none;
+    background-color: #a1674a3d;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}

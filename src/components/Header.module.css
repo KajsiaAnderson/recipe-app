@@ -1,7 +1,8 @@
 header {
     height: 60px;
     width: auto;
-    background-color: rgb(173, 79, 69);
+    background-color: #B26E63;
+    /* background-color: rgb(173, 79, 69); */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,8 @@ h2 {
 }
 
 .nav_btn:hover {
-    background-color: rgb(194, 93, 82);
+    background-color: #A1674A;
+    /* background-color: rgb(194, 93, 82); */
     transition: all 0.05s ease-in-out;
-    box-shadow: 5px 5px 15px rgb(0, 0, 0);;
+    box-shadow: 5px 5px 15px rgb(32, 33, 33);;
 }

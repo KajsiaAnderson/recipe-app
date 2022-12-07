@@ -1,0 +1,48 @@
+.recipe_card {
+    width: 18vw;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px rgb(92, 128, 144);
+}
+
+.recipe_img_container {
+    width: 18vw;
+    height: 300px;
+    height: 31vh;
+    margin-bottom: 10px;
+  }
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+h2{
+    padding: 10px;
+    font-size: larger;
+}
+
+.see_btn {
+    background-color: #5A7D7C;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.see_btn:hover {
+    background-color: #628887;
+    /* background-color: #90a394; */
+    transition: all 0.05s ease-in-out;
+    box-shadow: 5px 5px 15px rgb(61, 84, 91);
+}
