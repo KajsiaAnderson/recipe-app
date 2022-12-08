@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    padding: 30px;
 }
 
 .recipe_container{
@@ -11,13 +11,14 @@
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .search_bar input {
     width: 100%;
     border-radius: 50px 50px 50px 50px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 input {

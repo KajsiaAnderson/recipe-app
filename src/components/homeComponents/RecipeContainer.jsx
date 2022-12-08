@@ -30,7 +30,7 @@ const RecipeContainer = ({ recipes }) => {
                 />
             </span>
             <div className={styles.recipe_container}>
-                {recipeDisplay ? recipeDisplay : <h2>No recipes found</h2>}
+                {recipeDisplay.length !== 0 ? recipeDisplay : <h3>No recipes found</h3>}
             </div>
         </section>
     )

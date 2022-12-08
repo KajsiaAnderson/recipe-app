@@ -1,13 +1,14 @@
 footer {
     width: 100%;
-    height: 145px;
+    height: 18vh;
     background-color: #3f3f3f;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-    margin-top: 3%;
+    justify-content: space-between;
+    /* position: absolute; */
+    /* bottom: 0; */
+    box-sizing: border-box;
+    margin-top: auto;
 }
 
 h5 {
@@ -21,6 +22,7 @@ h5 {
     flex-direction: column;
     align-items: center;
     row-gap: 15px;
+    padding: 0 10%;
 }
 
 .react_icons {
@@ -38,3 +40,7 @@ h5 {
     align-items: center;
 }
 
+.svg {
+    height: 70%;
+    padding: 0 10%;
+}

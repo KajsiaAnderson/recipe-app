@@ -14,7 +14,7 @@ const RecipeCard = ({ recipe }) => {
             <div className={styles.recipe_img_container}>
                 <img src={recipe.image_url} alt="food" />
             </div>
-            <h2>{recipe.recipe_name}</h2>
+            <h2 className={styles.recipe_name}>{recipe.recipe_name}</h2>
             <button className={styles.see_btn} onClick={handleClick}>See More</button>
         </div>
     )
