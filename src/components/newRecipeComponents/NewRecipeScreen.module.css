@@ -1,0 +1,17 @@
+.add_btn {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #B26E63;
+    border: 2px solid var(--color-primary);
+    color: white;
+    margin: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.add_btn:hover {
+    background-color: #c68176;
+    transition: all 0.05s ease-in-out;
+    box-shadow: 5px 5px 15px rgb(83, 117, 117);;
+}
