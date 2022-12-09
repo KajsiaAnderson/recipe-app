@@ -28,7 +28,7 @@ h2 {
 }
 
 .nav_btn:hover {
-    background-color: #A1674A;
+    background-color: #b37268;
     /* background-color: rgb(194, 93, 82); */
     transition: all 0.05s ease-in-out;
     box-shadow: 5px 5px 15px rgb(32, 33, 33);;

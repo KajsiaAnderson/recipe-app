@@ -21,7 +21,7 @@ const RecipeContainer = ({ recipes }) => {
     return (
         <section className={styles.recipe_section}>
             <span className={styles.search_bar}>
-                <AiOutlineSearch size="2em" color="#A1674A" />
+                <AiOutlineSearch size="2em" color="#B26E63" />
                 <input
                     type='text'
                     value={search}
