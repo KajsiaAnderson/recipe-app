@@ -53,12 +53,12 @@ const NewRecipeScreen = () => {
   })
 
   return (
-    <section>
-      <h1>Tell us about your Recipe!</h1>
+    <section className={styles.add_section}>
+      <h1 className={styles.add_title}>Tell us about your Recipe!</h1>
       <Formik initialValues={initialValues} onSubmit={onSubmit}>
         {({ values, handleChange, handleSubmit }) => (
-          <form onSubmit={handleSubmit}>
-            <div>
+          <form className={styles.add_form} onSubmit={handleSubmit}>
+            <div className={styles.input}>
               <input
                 type="text"
                 placeholder="Name"
@@ -74,25 +74,33 @@ const NewRecipeScreen = () => {
                 name="imageURL"
               />
             </div>
-            <div>
-              <input
-                type="radio"
-                value="Cook"
-                onChange={handleChange}
-                name="type"
-              /> Cook
-              <input
-                type="radio"
-                value="Bake"
-                onChange={handleChange}
-                name="type" /> Bake
-              <input
-                type="radio"
-                value="Drink"
-                onChange={handleChange}
-                name="type" /> Drink
+            <div className={styles.type}>
+              <span>
+                <input
+                  type="radio"
+                  value="Cook"
+                  onChange={handleChange}
+                  name="type"
+                /> <h6>Cook</h6>
+              </span>
+              <span>
+                <input
+                  type="radio"
+                  value="Bake"
+                  onChange={handleChange}
+                  name="type"
+                /> <h6>Bake</h6>
+              </span>
+              <span>
+                <input
+                  type="radio"
+                  value="Drink"
+                  onChange={handleChange}
+                  name="type"
+                /> <h6>Drink</h6>
+              </span>
             </div>
-            <div>
+            <div className={styles.input}>
               <input
                 type="text"
                 placeholder="Prep Time"
@@ -112,30 +120,32 @@ const NewRecipeScreen = () => {
                 onChange={handleChange}
                 name="serves" />
             </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Ingredient"
-                value={name}
-                onChange={ingredientChange}
-              />
-              <input
-                type="text"
-                placeholder="Quantity"
-                value={quantity}
-                onChange={quantityChange}
-              />
+            <div className={styles.input_ing}>
+              <div className={styles.ingredient}>
+                <input
+                  type="text"
+                  placeholder="Ingredient"
+                  value={name}
+                  onChange={ingredientChange}
+                />
+                <input
+                  type="text"
+                  placeholder="Quantity"
+                  value={quantity}
+                  onChange={quantityChange}
+                />
+              </div>
+              <ul>{ingredientDisplay}</ul>
             </div>
-            <ul>{ingredientDisplay}</ul>
             <button className={styles.add_btn} type="button" onClick={addIngredient}>Add Ingredient</button>
             <textarea
               rows="5"
-              placeholder="Instructions"
+              placeholder="What are the instructions?"
               value={values.instructions}
               onChange={handleChange}
               name="instructions"
             />
-            <button type="submit">Submit</button>
+            <button className={styles.add_submit_btn}type="submit">Submit</button>
           </form>
         )}
       </Formik>

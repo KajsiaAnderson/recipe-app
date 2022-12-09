@@ -21,8 +21,9 @@ const RecipeContainer = ({ recipes }) => {
     return (
         <section className={styles.recipe_section}>
             <span className={styles.search_bar}>
-                <AiOutlineSearch size="2em" color="#B26E63" />
+                <AiOutlineSearch size="2em" color="rgb(223, 120, 10)" />
                 <input
+                    className={styles.search_input}
                     type='text'
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}

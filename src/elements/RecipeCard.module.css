@@ -29,7 +29,7 @@ img {
 }
 
 .see_btn {
-    background-color: #5A7D7C;
+    background-color: #618988;
     color: white;
     width: 130px;
     height: 40px;
@@ -40,7 +40,7 @@ img {
 }
 
 .see_btn:hover {
-    background-color: #628887;
+    background-color: #6a9392;
     /* background-color: #90a394; */
     transition: all 0.05s ease-in-out;
     box-shadow: 5px 5px 15px rgb(61, 84, 91);

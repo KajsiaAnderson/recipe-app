@@ -20,7 +20,7 @@
 }
 
 .ad_title {
-    color: #B26E63;
+    color: rgb(223, 120, 10);
     /* color: rgb(173, 79, 69); */
     font-size: 45px;
     font-weight: bold;
@@ -28,7 +28,7 @@
 
 button {
     /* background-color: #6A7062; */
-    background-color: #5A7D7C;
+    background-color: #618988;
     color: white;
     width: 130px;
     height: 40px;
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-    background-color: #628887;
+    background-color: #6a9392;
     transition: all 0.05s ease-in-out;
     box-shadow: 5px 5px 15px rgb(51, 61, 61);
 }

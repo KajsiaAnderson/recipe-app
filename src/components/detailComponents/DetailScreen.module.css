@@ -9,9 +9,10 @@
 }
 
 .detail_title {
-    color: #B26E63;
-    font-size: 45px;
+    color: rgb(223, 120, 10);
+    font-size: 3.5rem;
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .detail_text {
